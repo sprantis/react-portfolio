@@ -15,9 +15,15 @@ export default function Footer() {
                 textAlign: "center"
             }}
         >
-            <a href="https://github.com/sprantis">GitHub <i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/sarah-prantis/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/bubbleeart">Twitter <i class="fa-brands fa-square-twitter"></i></a>
+            <div className='row mt-3'>
+                <p className='col'></p>
+                <p className='col'></p>
+                <p className='col'><a className='white-link' href="https://github.com/sprantis">GitHub</a></p>
+                <p className='col'><a className='white-link' href="https://www.linkedin.com/in/sarah-prantis/">LinkedIn</a></p>
+                <p className='col'><a className='white-link' href="https://twitter.com/bubbleeart">Twitter</a></p>
+                <p className='col'></p>
+                <p className='col'></p>
+            </div>
         </div>
     )
 }

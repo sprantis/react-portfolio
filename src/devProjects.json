@@ -1,44 +1,44 @@
 [
     {
         "id": "1st",
-        "title": "",
-        "imgSrc": "",
-        "deployedLink": "",
-        "ghRepoLink": ""
+        "title": "Text Editor",
+        "imgSrc": "https://i.imgur.com/fGPujFQ.png",
+        "deployedLink": "https://pure-everglades-02823.herokuapp.com/",
+        "ghRepoLink": "https://github.com/sprantis/text-editor"
     },
     {
         "id": "2nd",
-        "title": "",
-        "imgSrc": "",
-        "deployedLink": "",
-        "ghRepoLink": ""
+        "title": "Social Network API",
+        "imgSrc": "https://i.imgur.com/yrTcN8n.png",
+        "deployedLink": "https://github.com/sprantis/social-network-api",
+        "ghRepoLink": "https://github.com/sprantis/social-network-api"
     },
     {
         "id": "3rd",
-        "title": "",
-        "imgSrc": "",
-        "deployedLink": "",
-        "ghRepoLink": ""
+        "title": "Bitter Blog",
+        "imgSrc": "https://i.imgur.com/Dg4UxC3.png",
+        "deployedLink": "https://the-bitter-blog.herokuapp.com/",
+        "ghRepoLink": "https://github.com/sprantis/bitter"
     },
     {
         "id": "4th",
-        "title": "",
-        "imgSrc": "",
-        "deployedLink": "",
-        "ghRepoLink": ""
+        "title": "Fit Tracker",
+        "imgSrc": "https://i.imgur.com/GTpUpgG.png",
+        "deployedLink": "https://sprantis.github.io/fit-tracker/",
+        "ghRepoLink": "https://github.com/sprantis/fit-tracker"
     },
     {
         "id": "5th",
-        "title": "",
-        "imgSrc": "",
-        "deployedLink": "",
-        "ghRepoLink": ""
+        "title": "Note Taker",
+        "imgSrc": "https://i.imgur.com/q5kTaXq.png",
+        "deployedLink": "https://fierce-gorge-36704.herokuapp.com/",
+        "ghRepoLink": "https://github.com/sprantis/note-taker"
     },
     {
         "id": "6th",
-        "title": "",
-        "imgSrc": "",
-        "deployedLink": "",
-        "ghRepoLink": ""
+        "title": "Weather Dashboard",
+        "imgSrc": "https://i.imgur.com/U683cp1.png",
+        "deployedLink": "https://sprantis.github.io/weather-dashboard/",
+        "ghRepoLink": "https://github.com/sprantis/weather-dashboard"
     }
   ]

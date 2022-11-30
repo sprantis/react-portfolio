@@ -7,11 +7,11 @@ export default function Portfolio() {
     const [siteProjects, setSiteProjects] = useState({devProjects})
 
   return (
-    <div>
+    <div className='container'>
       <h1>Portfolio Page</h1>
-      <div className="row">
+      <div className='row'>
         {siteProjects.devProjects.map(devProject => (
-            <div className="col">
+            <div key={devProject.id + ' div'} className='col'>
                 <Project 
                     id={devProject.id}
                     key={devProject.id}

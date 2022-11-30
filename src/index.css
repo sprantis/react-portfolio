@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pic-dim {
+    height: 200px;
+    width: 200px;
+}
+
+.pic-dim2 {
+    height: 200px;
+    width: 335px;
+}
+
+.white-link {
+    color:white;
+    text-decoration: none;
+}
+
+.white-link:hover {
+    color:white;
+    text-decoration: underline;
+}

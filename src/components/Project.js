@@ -3,14 +3,16 @@ import React from "react";
 
 export default function Project(props) {
     return (
-        <div>
+        <div className='mt-5'>
+            <h5>
+                {props.title}
+            </h5>
+            <img className='pic-dim2' src={props.imgSrc}/>
             <p>
-                Title: {props.title}
+                <a href={props.deployedLink}>Deployed App</a>
             </p>
-            <img src={props.imgSrc}/>
             <p>
-                Deployed Link: {props.deployedLink}
-                GitHub Repo Link: {props.ghRepoLink}
+                <a href={props.ghRepoLink}>GitHub Repo</a>
             </p>
         </div>
     )
