@@ -20,9 +20,9 @@ export default function Footer() {
             <div className='row mt-3'>
                 <p className='col'></p>
                 <p className='col'></p>
-                <p className='col'><a className='white-link' href="https://github.com/sprantis">GitHub</a></p>
-                <p className='col'><a className='white-link' href="https://www.linkedin.com/in/sarah-prantis/">LinkedIn</a></p>
-                <p className='col'><a className='white-link' href="https://twitter.com/bubbleeart">Twitter</a></p>
+                <p className='col'><a className='white-link' target='_blank' rel="noreferrer" href="https://github.com/sprantis">GitHub</a></p>
+                <p className='col'><a className='white-link' target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/sarah-prantis/">LinkedIn</a></p>
+                <p className='col'><a className='white-link' target='_blank' rel="noreferrer" href="https://twitter.com/bubbleeart">Twitter</a></p>
                 <p className='col'></p>
                 <p className='col'></p>
             </div>
