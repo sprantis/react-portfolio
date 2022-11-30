@@ -1,4 +1,4 @@
-// Clickable icons for Github, Linkedin, and Twitter
+// Referencing code from Module 20
 import React from "react";
 
 export default function Footer() {
