@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.footer-padding {
+    padding-bottom: 60px;
+}
+
 .pic-dim {
     height: 200px;
     width: 200px;
@@ -29,5 +33,9 @@ code {
 
 .white-link:hover {
     color:white;
+    text-decoration: underline;
+}
+
+.underline {
     text-decoration: underline;
 }

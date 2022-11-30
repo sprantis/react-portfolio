@@ -5,7 +5,7 @@ import './style.css';
 // Here we import a helper function that will check if the email is valid
 import { checkMessage, validateEmail } from '../utils/helpers.js';
 
-function Form() {
+export default function Form() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [name, setName] = useState('');
@@ -95,5 +95,3 @@ function Form() {
     </div>
   );
 }
-
-export default Form;
