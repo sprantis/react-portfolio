@@ -21,7 +21,7 @@ N/A
 
 [Click here to check it out!](https://sprantis.github.io/react-portfolio/)
 
-![React Portfolio Screenshot](./client/src/images/react-portfolio-screenshot.png)
+![React Portfolio Screenshot](./src/assets/images/react-portfolio-screenshot.png)
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
