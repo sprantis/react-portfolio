@@ -7,21 +7,23 @@ export default function Portfolio() {
     const [siteProjects, setSiteProjects] = useState({devProjects})
 
   return (
-    <div className='container'>
-      <h1>Portfolio Page</h1>
-      <div className='row'>
-        {siteProjects.devProjects.map(devProject => (
-            <div key={devProject.id + ' div'} className='col'>
-                <Project 
-                    id={devProject.id}
-                    key={devProject.id}
-                    title={devProject.title}
-                    imgSrc={devProject.imgSrc}
-                    deployedLink={devProject.deployedLink}
-                    ghRepoLink={devProject.ghRepoLink}
-                />
-            </div>
-        ))}
+    <div>
+      <h1 className='mt-4'>Portfolio</h1>
+      <div className='container mx-auto'>
+        <div className='row'>
+            {siteProjects.devProjects.map(devProject => (
+                <div key={devProject.id + ' div'} className='col'>
+                    <Project 
+                        id={devProject.id}
+                        key={devProject.id}
+                        title={devProject.title}
+                        imgSrc={devProject.imgSrc}
+                        deployedLink={devProject.deployedLink}
+                        ghRepoLink={devProject.ghRepoLink}
+                    />
+                </div>
+            ))}
+        </div>
       </div>
     </div>
   );

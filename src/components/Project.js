@@ -7,12 +7,12 @@ export default function Project(props) {
             <h5>
                 {props.title}
             </h5>
-            <img className='pic-dim2' src={props.imgSrc}/>
+            <img className='pic-dim2' src={props.imgSrc} alt='Project' />
             <p>
-                <a href={props.deployedLink}>Deployed App</a>
+                <a className='teal-text' href={props.deployedLink}>Deployed App</a>
             </p>
             <p>
-                <a href={props.ghRepoLink}>GitHub Repo</a>
+                <a  className='teal-text' href={props.ghRepoLink}>GitHub Repo</a>
             </p>
         </div>
     )

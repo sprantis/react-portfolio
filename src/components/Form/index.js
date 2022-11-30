@@ -35,7 +35,7 @@ export default function Form() {
 
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
     if (!name || !validateEmail(email)) {
-      setErrorMessage('Name or email is invalid');
+      setErrorMessage('Name or email is invalid.');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
@@ -55,7 +55,7 @@ export default function Form() {
   };
 
   return (
-    <div>
+    <div className="mt-3 container">
       <form className="form">
         <input
             value={name}
@@ -63,6 +63,7 @@ export default function Form() {
             onChange={handleInputChange}
             type="text"
             placeholder="name"
+            className='form-control mx-auto'
         />
         <input
           value={email}
@@ -70,6 +71,7 @@ export default function Form() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          className='form-control mx-auto'
         />
         <textarea
           value={message}
@@ -77,18 +79,17 @@ export default function Form() {
           onChange={handleInputChange}
           type="message"
           placeholder="message"
+          className='form-control mx-auto'
         />
-        {/* <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="message"
-        /> */}
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button
+            type="submit"
+            class="btn btn-primary mt-1"
+            onClick={handleFormSubmit}>
+                Submit
+        </button>
       </form>
       {errorMessage && (
-        <div>
+        <div className='mt-3'>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}

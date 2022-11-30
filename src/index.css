@@ -39,3 +39,22 @@ code {
 .underline {
     text-decoration: underline;
 }
+
+.teal-text {
+    color: #00B4B4;
+    text-decoration: none;
+}
+
+.teal-text:hover {
+    color: #00B4B4;
+    text-decoration: underline;
+}
+
+.form-control {
+    max-width: 50%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
+    background-color: #00B4B4 !important;
+    border-color: #00B4B4 !important;
+}

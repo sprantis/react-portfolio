@@ -5,8 +5,8 @@ import Form from "../Form/index.js"
 export default function Contact() {
   return (
     <div>
-        <h1>Contact Page</h1>
-        <Form />
+        <h1 className='my-4'>Contact Page</h1>
+            <Form />
     </div>
   );
 }

@@ -4,17 +4,18 @@ import React from "react";
 export default function Footer() {
     // Fixed footer code: https://www.w3schools.com/howto/howto_css_fixed_footer.asp
     return (
-        <div
+        <footer
             style={{
                 position: "fixed",
                 left: 0,
                 right: 0,
                 bottom: 0,
                 width: 100 + "%",
-                backgroundColor: "#0275d8",
+                backgroundColor: "#00B4B4",
                 color: "white",
                 textAlign: "center"
             }}
+            className='container'
         >
             <div className='row mt-3'>
                 <p className='col'></p>
@@ -25,6 +26,6 @@ export default function Footer() {
                 <p className='col'></p>
                 <p className='col'></p>
             </div>
-        </div>
+        </footer>
     )
 }
