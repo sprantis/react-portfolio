@@ -27,7 +27,7 @@ code {
 }
 
 .white-link {
-    color:white;
+    color:white !important;
     text-decoration: none;
 }
 
@@ -50,6 +50,10 @@ code {
     text-decoration: underline;
 }
 
+.teal-bg {
+    background-color: #00B4B4;
+}
+
 .form-control {
     max-width: 50%;
 }
@@ -57,4 +61,8 @@ code {
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
     background-color: #00B4B4 !important;
     border-color: #00B4B4 !important;
+}
+
+.navbar-brand {
+    color:white !important;
 }

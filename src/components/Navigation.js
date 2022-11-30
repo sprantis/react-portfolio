@@ -6,9 +6,9 @@ import React from 'react';
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className='container'>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg teal-bg">
             <div className="mx-4">
-                <p className="my-2 navbar-brand" href="#">Sarah Prantis</p>
+                <p className="my-2 navbar-brand">Sarah Prantis</p>
             </div>
 
             <div id="navbarSupportedContent">
@@ -19,7 +19,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('About Me')}
                         className={currentPage === 'About Me' ? 'nav-item active underline' : 'nav-item'}
                     >
-                        <a className='nav-link mx-4' href="#about-me">
+                        <a className='nav-link mx-4 white-link' href="#about-me">
                             About Me
                         </a>
                     </li>
@@ -27,7 +27,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Portfolio')}
                         className={currentPage === 'Portfolio' ? 'nav-item active underline' : 'nav-item'}
                     >
-                        <a className='nav-link mx-4' href="#portfolio">
+                        <a className='nav-link mx-4 white-link' href="#portfolio">
                             Portfolio
                         </a>
                     </li>
@@ -35,7 +35,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Resume')}
                         className={currentPage === 'Resume' ? 'nav-item active underline' : 'nav-item'}
                     >
-                        <a className='nav-link mx-4' href="#resume">
+                        <a className='nav-link mx-4 white-link' href="#resume">
                             Resume
                         </a>
                     </li>
@@ -43,7 +43,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Contact')}
                         className={currentPage === 'Contact' ? 'nav-item active underline' : 'nav-item'}
                     >
-                        <a className='nav-link mx-4' href="#contact">
+                        <a className='nav-link mx-4 white-link' href="#contact">
                             Contact
                         </a>
                     </li>
