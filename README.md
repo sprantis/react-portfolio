@@ -23,6 +23,8 @@ N/A
 
 ![React Portfolio Screenshot](./src/assets/images/react-portfolio-screenshot.png)
 
+Feel free to navigate the tabs of this page to check out my About Me, Portfolio, Resume, and Contact pages!
+
 ## License
 [MIT](https://opensource.org/licenses/MIT)
 
