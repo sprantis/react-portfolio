@@ -3,6 +3,8 @@
         "id": "1st",
         "title": "Tap Map",
         "imgSrc": "https://i.imgur.com/AChctue.png",
+        "description": "Your go-to app for locating breweries across the nation!",
+        "technologies": "MongoDB, Express.js, React.js, Node.js, GraphQL, Ant Design (CSS), JWT",
         "deployedLink": "https://tap-map-app.herokuapp.com/",
         "ghRepoLink": "https://github.com/sprantis/tap-map"
     },
@@ -10,6 +12,8 @@
         "id": "2nd",
         "title": "Bitter Blog",
         "imgSrc": "https://i.imgur.com/Dg4UxC3.png",
+        "description": "The better blog site to really let the world know what grinds your gears!",
+        "technologies": "Handlebars.js, SQL, Sequelize (ORM)",
         "deployedLink": "https://the-bitter-blog.herokuapp.com/",
         "ghRepoLink": "https://github.com/sprantis/bitter"
     },
@@ -17,6 +21,8 @@
         "id": "3rd",
         "title": "Fit Tracker",
         "imgSrc": "https://i.imgur.com/GTpUpgG.png",
+        "description": "Log your workouts in detail from the first steps on the treadmill to the last sweaty set of Romanian Deadlifts.",
+        "technologies": "HTML5, CSS3, JavaScript, jQuery, Bulma.css, Moment.js, Font Awesome",
         "deployedLink": "https://sprantis.github.io/fit-tracker/",
         "ghRepoLink": "https://github.com/sprantis/fit-tracker"
     },
@@ -24,6 +30,8 @@
         "id": "4th",
         "title": "Book Search Engine",
         "imgSrc": "https://i.imgur.com/CshohMN.png",
+        "description": "Search for books and save your favorite selections!",
+        "technologies": "MongoDB, Express.js, React.js, Node.js",
         "deployedLink": "https://sjp-book-search-engine.herokuapp.com/",
         "ghRepoLink": "https://github.com/sprantis/book-search-engine"
     },
@@ -31,6 +39,8 @@
         "id": "5th",
         "title": "Text Editor",
         "imgSrc": "https://i.imgur.com/fGPujFQ.png",
+        "description": "Write some notes and revisit them later. You can even download the app!",
+        "technologies": "HTML5, CSS3, JavaScript, Express.js, Node.js, Webpack",
         "deployedLink": "https://pure-everglades-02823.herokuapp.com/",
         "ghRepoLink": "https://github.com/sprantis/text-editor"
     },
@@ -38,6 +48,8 @@
         "id": "6th",
         "title": "Social Network API",
         "imgSrc": "https://i.imgur.com/yrTcN8n.png",
+        "description": "Share your toughts and react to your friend's thoughts.",
+        "technologies": "Express.js, Node.js, MongoDB, Mongoose (ODM)",
         "deployedLink": "https://drive.google.com/file/d/1iwFZPFSx0fTk0q1f78BIOgyH5Dr8CdVr/view",
         "ghRepoLink": "https://github.com/sprantis/social-network-api"
     }

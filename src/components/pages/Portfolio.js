@@ -10,7 +10,7 @@ export default function Portfolio() {
     <div>
       <h1 className='mt-4'>Portfolio</h1>
       <div className='container mx-auto'>
-        <div className='row'>
+        <div className='col'>
             {siteProjects.devProjects.map(devProject => (
                 <div key={devProject.id + ' div'} className='col'>
                     <Project 
@@ -18,6 +18,8 @@ export default function Portfolio() {
                         key={devProject.id}
                         title={devProject.title}
                         imgSrc={devProject.imgSrc}
+                        description={devProject.description}
+                        technologies={devProject.technologies}
                         deployedLink={devProject.deployedLink}
                         ghRepoLink={devProject.ghRepoLink}
                     />
